@@ -1,0 +1,19 @@
+{
+	"name": "Output",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Output",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "output.txt",
+				"folderPath": "output",
+				"container": "adfdemosagili"
+			}
+		}
+	}
+}
