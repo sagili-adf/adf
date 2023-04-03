@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "sagili-adfgit"
 		},
+		"Input_connectionString": {
+			"value": ""
+		},
+		"Output_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},

@@ -7,6 +7,14 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "sagili-adfgit"
 		},
+		"Input_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'Input'"
+		},
+		"Output_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'Output'"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -33,6 +41,12 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"Input_connectionString": {
+						"value": "[parameters('Input_connectionString')]"
+					},
+					"Output_connectionString": {
+						"value": "[parameters('Output_connectionString')]"
 					}
 				}
 			},
